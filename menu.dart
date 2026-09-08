@@ -7,7 +7,7 @@ void tampilkanMenu() {
     print("          MENU UTAMA");
     print("==============================");
     print("1. Data Kelompok");
-    print("2. Perkalian");
+    print("2. Input Barang Masuk/ Keluar");
     print("3. Apaa ini");
     print("0. Keluar");
     print("==============================");
@@ -19,7 +19,10 @@ void tampilkanMenu() {
       case "1":
         dataKelompok();
         break;
-
+      case "2":
+        inputbarang();
+        break;
+        
       case "0":
         print("Program selesai.");
         return;
