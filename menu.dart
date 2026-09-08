@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'datakelompok.dart';
+import 'inputbarang.dart';
 
 void tampilkanMenu() {
   while (true) {
