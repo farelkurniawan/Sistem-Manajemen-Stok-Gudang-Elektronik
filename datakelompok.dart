@@ -1,3 +1,4 @@
+
 import 'dart:io';
 
 void dataKelompok() {
@@ -5,7 +6,6 @@ void dataKelompok() {
   print("        DATA KELOMPOK");
   print("==============================");
 
-  print("Nama Kelompok : Kelompok 1");
   print("Mata Kuliah   : Pemrograman Dart");
 
   print("\nAnggota Kelompok:");
@@ -21,7 +21,12 @@ void dataKelompok() {
   stdout.write("Pilih : ");
   String? pilihan = stdin.readLineSync();
 
-  if (pilihan == "0") {
-    return;
+  switch (pilihan) {
+    case "0":
+      return;
+
+    default:
+      print("Pilihan tidak tersedia.");
+      return;
   }
 }
