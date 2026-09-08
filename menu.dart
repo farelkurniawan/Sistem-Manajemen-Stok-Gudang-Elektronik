@@ -21,7 +21,7 @@ void tampilkanMenu() {
         dataKelompok();
         break;
       case "2":
-        inputbarang();
+        menuBarangMasukKeluar();
         break;
         
       case "0":
